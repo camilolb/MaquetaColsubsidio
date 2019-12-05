@@ -1,0 +1,523 @@
+h1{
+    text-align: left;
+    font-size: 31px;
+    font: Bold  Roboto;
+    letter-spacing: 0;
+    color: #001D5F;
+    opacity: 1;
+}
+
+h2{
+    text-align: left;
+    font-size: 24px;
+    font: Bold  Roboto;
+    letter-spacing: 0;
+    color: #001D5F;
+    opacity: 1;
+}
+
+p{
+    text-align: left;
+    font-size: 14px;
+    font: Regular Roboto;
+    letter-spacing: 0;
+    color: #001D5F;
+    opacity: 1;
+}
+
+header{
+    background-color: #001F5B;
+    padding: 10px;
+}
+
+header .notificacion
+{
+    position: relative;
+}
+
+.notificacion img{
+    display: block;
+    margin-right: 0px;
+    margin-top: 30px;
+}
+
+.barraLateral{
+    position: absolute;
+    background: white;
+    height: 100%;
+    left: 0px;
+    padding: 15px;
+}
+
+.barraLateral ul{
+    margin-top: 200px;
+    margin-left: -40px !important;
+}
+.barraLateral li{
+    list-style: none;
+    margin-top: 70px;
+}
+
+.barraLateral i, .barraLateral p{
+    color: #001F5B;
+    font-weight: 500;
+    text-align: left;
+    display: block;
+    text-align: center;
+
+}
+
+
+
+header .imgLogo{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+header .buscador{
+    margin-top: 20px;
+}
+
+header button{
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    opacity: 1; 
+    margin-right: 0px; 
+    display: block;
+    /* text-align: right; */
+    margin: 0 auto !important;
+    font-size: 15px;
+    padding: 9px;
+    background: transparent;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px !important;
+}
+
+header .cantNotificacion
+{
+    /* right: 0px; */
+    background: #FFCE00;
+    /* padding: 2px; */
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 50%;
+    color: black;
+    right: 0px;
+    width: 20px;
+    position: absolute;
+    top: 15px;
+}
+
+header .buscador{
+
+        display: block;
+        border: none;
+        padding: 10px 0;
+        border-bottom: solid 1px #FFED00;
+        transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, #FFED00 4%);
+        background-position: -200px 0;
+        background-size: 200px 100%;
+        background-repeat: no-repeat;
+        color: white;
+      
+}
+
+header .buscador:focus,header .buscador:valid{
+    box-shadow: none;
+    outline: none;
+    background-position: 0 0;
+    background: transparent;
+    color: white;
+
+} 
+
+header .buscador::placeholder{
+    
+    color: white;
+    font-size: 15px;
+    visibility: visible !important;
+}
+
+.titulo{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contenedor {
+    background: #F7F7F7;
+}
+
+
+
+.loginUsuario, .cerrarSesion{
+    border-right: 1px solid #585F6F;
+    opacity: 1;
+}
+
+.loginUsuario h4{
+    text-align: left;
+    font-size: 20px !important;
+    font: Roboto !important;
+    letter-spacing: 0.26px;
+    color: #FFFFFFDE;
+    opacity: 1;
+    margin-top: 8px;
+}
+
+.infoUsuario img{
+    background: white;
+    padding: 16px;
+    border-radius: 50%;
+    display: block;
+    margin-right: 0px;
+    margin-top: 5px;
+}
+
+.loginUsuario p{
+    text-align: left;
+    font-size: 14px;
+    font: Regular Roboto !important;
+    letter-spacing: 0.24px;
+    color: #FFFFFFDE;
+    opacity: 1;
+}
+
+.inptRadio{
+    font: Regular 16px/21px Roboto Condensed;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+
+header img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.menuNavegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: left !important;
+    font: Regular Roboto Condensed !important; 
+    letter-spacing: 0 !important;
+    color: #001F5B !important;
+    opacity: 1 !important;
+}
+.menuNavegacion span{
+    margin-left: 7px;
+}
+
+.btnPortal{
+    background: #FFCE00 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+    padding: 10px;
+    margin-top: -10px;
+    margin-right: 0px !important;
+    display: block;
+    float: right;
+    border: 0px;
+    padding-left: 30px;
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.btnPortal button{
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: #001D5F;
+    font-weight: 600;
+    font-size: 14px;   
+}
+
+.menuCategorias{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 16px #0000001F;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.btn-group{
+    width:  100%;
+}
+
+.btnCategoria{
+    padding: 13px;
+    color: #001F5B !important;
+    text-align: center;
+
+    text-align: center;
+    font-size: 14px;
+    font: Bold Roboto;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btnCategoria:hover{
+    background: #001F5B;
+    color: white !important;
+}
+
+.tarjetaNotificacion{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 16px #0000001F;
+    opacity: 1;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+.tarjetaNotificacion img{
+    color: #FFCE00;
+    padding: 23px;
+    background: #315DC1;
+    border-radius: 50%;
+    margin-left: -25px;
+}
+
+.tarjetaNotificacion .row{
+    margin-top: 15px;
+}
+
+.tarjetaNotificacion p{
+    text-align: left;
+    font-size: 15px;
+    font: Regular Roboto;
+    letter-spacing: 0.18px;
+    color: #001D5F;
+    opacity: 1;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.tarjetaNotificacion .Descripcion{
+    margin-top: -10px !important;
+}
+
+.tarjetaNotificacion h1{
+    margin-bottom: 0px !important;
+    font-size: 40px;
+    margin-top: -5px;
+}
+
+.tarjetaNotificacion h2{
+    margin-top: -5px;
+}
+
+.tarjetaNotificacion button{
+    background: #FFCE00;
+    width: 40%;
+    float: right;
+    margin-top: -20px;
+    color: #001D5F;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.verMasNot{
+    display: block;
+    margin: 0 auto;
+    padding: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #001D5F;
+    text-decoration: underline;
+}
+.verMasNot p{
+    font-size: 16px;
+}
+
+.tarjetaGeneral{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 16px #0000001F;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: center !important;
+    padding: 10px
+}
+
+.tarjetaGeneral h1{
+
+    font: Bold  Roboto;
+    letter-spacing: 0;
+    color: #001D5F;
+    opacity: 1;
+    text-align: center;
+    padding: 10px;
+    font-size: 31px;
+
+}
+
+.tarjetaGeneral h4{
+
+    text-align: center;
+    font: Bold  Roboto;
+    letter-spacing: 0.26px;
+    color: #315DC1;
+    opacity: 1;
+    font-size: 20px;
+}
+
+.tarjetaGeneral p{
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    margin-top: 30px;
+}
+.fa-times-circle{
+    display: block;
+    margin:  0 auto;
+    text-align: center;
+    color: red;
+    background: white;
+    border-radius: 50%;
+    display: block;
+    margin-top: -90px !important
+}
+
+
+/*RESPONSIVE */
+
+@media screen and (min-width: 769px)
+{
+    .menuMovil{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+
+    .barraLateral{
+        display:  none !important;
+    }
+
+    .menuEscritorio, .subMenu{
+        display: none !important;
+    }
+
+    .contenedor{
+        margin-top: -48px;
+    }
+
+    .btn-group{
+        display: inline-block;
+    }
+
+    .menuMovil{
+        display: block;
+        text-align: center;
+        background: #001F5B;
+        padding: 20px;
+    }
+    .menuMovil .imgLogo{
+        margin-top: 0px !important;
+        width: 90%;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .menuMovil .fa-angle-left{
+        color: white;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .menuMovil .fa-search, .menuMovil  .fa-bars{
+        color: white;
+        font-size: 17px;
+        margin-top: 7px;
+    }
+
+    .menuNavegacionM{
+        width: 33%;
+        color: white;
+        background: white;
+        padding: 7px;
+        margin-top: 18px;
+    }
+    .menuCategorias{
+        margin-top: 15px;
+    }
+
+    /*SECCION TARJETAS*/
+
+    .notiInformacion{
+        padding: 15px;
+    }
+
+    .tarjetaNotificacion{
+        margin-bottom: 40px;
+    }
+
+    .tarjetaNotificacion button{
+        width: 60%;
+    }
+
+    .fechaTarjeta{
+        padding-left: 0px;
+    }
+    
+    .tarjetaNotificacion p{
+        font-size: 12px;
+    }
+
+    .tarjetaNotificacion h1{
+        font-size: 33px !important;
+    }
+
+    .tarjetaNotificacion h2{
+        font-size: 25px !important;
+    }
+
+    .tarjetaNotificacion .col-1{
+        position: absolute;
+        right: 20px;
+    }
+
+    .verMasNot{
+        padding: 15px;
+    }
+
+    .tarjetaGeneral h1{
+        font-size: 24px;
+        font: bold;
+    }
+
+    .tarjetaGeneral h4{
+        font-size: 17px;
+    }
+
+    .tarjetaGeneral p{
+        padding: 15px !important;
+    }
+
+
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    
+
+
+
+  }
+
+
