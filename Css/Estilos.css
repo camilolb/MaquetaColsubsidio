@@ -265,9 +265,6 @@ header img
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
-
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .btnCategoria:hover{
@@ -409,11 +406,33 @@ header img
 
 }
 
+.volverIntentar{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.volverIntentar button{
+    background: #FFCE00;
+    color: #001D5F;
+    font-weight: 500;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
 
 /*RESPONSIVE */
 
 @media screen and (min-width: 769px)
 {
+
+
     .menuMovil{
         display: none !important;
     }
@@ -421,10 +440,22 @@ header img
     .btnVolverIntentar{
         display: none;
     }
+
+    .barraLateral2{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px)
 {
+
+    .volverIntentar{
+        width: 80% !important;
+    }
+
+    .volverIntentar button{
+        width: 80% ;
+    }
 
     .ocultar{
         display: none;
@@ -437,12 +468,12 @@ header img
     .barraLateral2{
         background: #FFFFFF 0% 0% no-repeat padding-box;
         box-shadow: 0px 0px 16px #0000001F;
-        position: absolute;
+        position: fixed;
         z-index: 10;
         width: 100%;
         left: 0px;
         padding: 0px;
-        top: 90px;
+        top: 640px;
         border-radius: 5px;
     }
 
@@ -466,17 +497,7 @@ header img
         margin: 0px;
     }
 
-    .volverIntentar button{
-        background: #FFCE00;
-        color: #001D5F;
-        font-weight: 500;
-        width: 80%;
-        border: 0px;
-        border-radius: 5px;
-        padding: 5px;
-        display: block;
-        margin: 0 auto
-    }
+
 
 
     .menuEscritorio, .subMenu{
