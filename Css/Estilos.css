@@ -280,7 +280,7 @@ header img
     box-shadow: 0px 0px 16px #0000001F;
     opacity: 1;
     border-radius: 7px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .tarjetaNotificacion img{
@@ -382,13 +382,31 @@ header img
 }
 .fa-times-circle{
     display: block;
-    margin:  0 auto;
+    margin: 0 auto;
     text-align: center;
     color: red;
     background: white;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     display: block;
-    margin-top: -90px !important
+    /* margin-top: -40px !important; */
+    position: absolute;
+    background: white;
+    padding: -46px;
+    display: block;
+    margin: 0 auto !important;
+    display: block !important;
+    /* left: 0px; */
+    /* right: 0px; */
+    /* top: 0px; */
+    text-align: center;
+    width: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 50%;
+    top: -55px;
+    left: 0px;
+    right: 0px;
+
 }
 
 
@@ -399,14 +417,67 @@ header img
     .menuMovil{
         display: none !important;
     }
+
+    .btnVolverIntentar{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px)
 {
 
+    .ocultar{
+        display: none;
+    }
+
     .barraLateral{
         display:  none !important;
     }
+
+    .barraLateral2{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 16px #0000001F;
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        left: 0px;
+        padding: 0px;
+        top: 90px;
+        border-radius: 5px;
+    }
+
+    .barraLateral2 ul{
+        display: flex;
+        list-style: none;
+    }
+
+    .barraLateral2 li{
+        width: 30%;
+        margin-top: 10px;
+    }
+    .barraLateral2 i{
+        margin-left: 13px;
+        color: #001F5B;
+        font-weight: 500;
+    }
+    .barraLateral2 p{
+        color: #001F5B;
+        font-weight: 500;
+        margin: 0px;
+    }
+
+    .volverIntentar button{
+        background: #FFCE00;
+        color: #001D5F;
+        font-weight: 500;
+        width: 80%;
+        border: 0px;
+        border-radius: 5px;
+        padding: 5px;
+        display: block;
+        margin: 0 auto
+    }
+
 
     .menuEscritorio, .subMenu{
         display: none !important;
@@ -417,7 +488,7 @@ header img
     }
 
     .btn-group{
-        display: inline-block;
+        display: flex;
     }
 
     .menuMovil{
@@ -495,6 +566,10 @@ header img
     .verMasNot{
         padding: 15px;
     }
+    
+    .tarjetaGeneral{
+        position: relative;
+    }
 
     .tarjetaGeneral h1{
         font-size: 24px;
@@ -507,6 +582,15 @@ header img
 
     .tarjetaGeneral p{
         padding: 15px !important;
+    }
+
+    .NecesitaAyuda i{
+        padding-right: 20px;
+    }
+    
+    .btnCategoria{
+        padding: 15px !important;
+        font-size: 11px;
     }
 
 
