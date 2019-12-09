@@ -427,6 +427,13 @@ header img
 }
 
 
+.active{
+    background: #001F5B !important;
+    color: white !important;
+    
+}
+
+
 /*RESPONSIVE */
 
 @media screen and (min-width: 769px)
@@ -464,6 +471,7 @@ header img
     .barraLateral{
         display:  none !important;
     }
+
 
     .barraLateral2{
         background: #FFFFFF 0% 0% no-repeat padding-box;
